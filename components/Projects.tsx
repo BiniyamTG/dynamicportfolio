@@ -33,20 +33,12 @@ const Projects = () => {
             <h3 className="text-2xl font-bold">Kelal Gebeya</h3>
           </div>
           <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md xl:-mr-16">
-            Kelal Gebeya is an eCommerce website 
             <span className="text-textGreen">
-              designed to provide a seamless online shopping experience. Key features include:
+                    Kelal Gebeya is an eCommerce platform designed and built by Biniyam Teketel
             </span>
-            <br />
-            User-Friendly Interface: A clean layout for easy navigation through product categories.
-            <br />
-            Product Listings: Detailed descriptions, high-quality images, and pricing for each item.
-            <br />
-            Shopping Cart and Checkout: Users can add items to their cart and complete purchases with a streamlined checkout process.
-            <br />
-            Responsive Design: The site functions well on desktops, tablets, and smartphones.
-            <br />
-            Technology Stack: Built with React for the frontend, Node.js and Express for the backend, and MongoDB for database management.
+
+            User-friendly interface | Detailed product listings | Streamlined shopping cart and checkout | Responsive design
+         
           </p>
           <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
             <li>js</li>
