@@ -13,7 +13,7 @@ const Projects = () => {
         <div className="flex flex-col xl:flex-row-reverse gap-6">
           <a
             className="w-full xl:w-1/2 h-auto relative group"
-              href="https://biniyamtg.github.io/CoupleCard/"
+              href="https://kelal-gebeya-frontend-4zqglzb7c-biniyam-teketels-projects.vercel.app/"
             target="_blank"
           >
             <div>
@@ -30,14 +30,28 @@ const Projects = () => {
               <p className="font-titleFont text-textGreen text-sm tracking-wide">
                 Featured Project
               </p>
-              <h3 className="text-2xl font-bold">እንጠያየቅ?</h3>
+              <h3 className="text-2xl font-bold">Kelal Gebeya</h3>
             </div>
             <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md xl:-mr-16">
-            Is designed to foster <span className="text-textGreen">deeper conversations between couples.</span> It provides a collection of thought-provoking prompts and questions that encourage meaningful discussions and strengthen emotional connections. {" "}
+            Kelal Gebeya is an eCommerce website<span className="text-textGreen">designed to provide a seamless online shopping experience. Key features include:
+
+User-Friendly Interface: A clean layout for easy navigation through product categories.
+Product Listings: Detailed descriptions, high-quality images, and pricing for each item.
+Shopping Cart and Checkout: Users can add items to their cart and complete purchases with a streamlined checkout process.
+Responsive Design: The site functions well on desktops, tablets, and smartphones.
+Technology Stack: Built with React for the frontend, Node.js and Express for the backend, and MongoDB for database management.{" "}
         
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
               <li>js</li>
+              <li>React</li>
+              <li> Vite </li>
+              <li>Node.js</li>
+              <li>Express</li>
+              <li>MongoDB Atlas</li>
+              <li>Axios</li>
+              <li>JWT </li>
+  
         
             </ul>
             <div className="text-2xl flex gap-4">
