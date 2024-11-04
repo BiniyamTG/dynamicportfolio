@@ -34,7 +34,7 @@ const Projects = () => {
           </div>
           <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md xl:-mr-16">
             <span className="text-textGreen">
-                    Kelal Gebeya is an eCommerce platform designed and built by Biniyam Teketel
+                    Kelal Gebeya is an eCommerce platform designed and built by Biniyam Teketel which is -
             </span>
 
             User-friendly interface | Detailed product listings | Streamlined shopping cart and checkout | Responsive design
