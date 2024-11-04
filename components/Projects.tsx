@@ -50,7 +50,7 @@ Technology Stack: Built with React for the frontend, Node.js and Express for the
               <li>Express</li>
               <li>MongoDB Atlas</li>
               <li>Axios</li>
-              <li>JWT </li>
+              <li>JWT</li>
   
         
             </ul>
