@@ -9,6 +9,45 @@ const Projects = () => {
   return (
     <section id="project" className="max-w-container mx-auto lgl:px-20 py-24">
       <SectionTitle title="My Projects" titleNo="03" />
+           <div className="flex flex-col xl:flex-row gap-6">
+          <a
+            className="w-full xl:w-1/2 h-auto relative group"
+            href="https://bunavisa.com/"
+            target="_blank"
+          >
+            <div>
+              <Image
+                className="w-full h-full object-contain"
+                src={noorShop}
+                alt="noorShop"
+              />
+              <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
+            </div>
+          </a>
+          <div className="w-full xl:w-1/2 flex flex-col gap-6 justify-between items-end text-right xl:-ml-16 z-10">
+            <div>
+              <p className="font-titleFont text-textGreen text-sm tracking-wide">
+                Featured Project
+              </p>
+              <h3 className="text-2xl font-bold">Buna Visa</h3>
+            </div>
+            <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md">
+              The Buna Visa project is a <span className="text-textGreen"> visually appealing and interactive travel agency website </span> designed to assist users in exploring study, work, and tourist visa options. It features mobile responsiveness, modern UI/UX elements, and detailed sections like FAQs, testimonials, and visa plans to enhance user experience and engagement. 
+            <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
+              <li>React</li>
+              <li>Vercel</li>
+            </ul>
+            <div className="text-2xl flex gap-4">
+              <a
+                className="hover:text-textGreen duration-300"
+                href="https://bunavisa.com/"
+                target="_blank"
+              >
+                <RxOpenInNewWindow />
+              </a>
+            </div>
+          </div>
+        </div>
       {/* ============ project Two Start here ================ */}
       <div className="flex flex-col xl:flex-row-reverse gap-6">
         <a
