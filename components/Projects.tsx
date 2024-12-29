@@ -1,9 +1,10 @@
-import { amazonImg, cyberImg, noorShop } from "@/public/assets";
+import { amazonImg, cyberImg, noorShop, Bunait } from "@/public/assets";
 import Image from "next/image";
 import { AiOutlineYoutube } from "react-icons/ai";
 import { TbBrandGithub } from "react-icons/tb";
 import SectionTitle from "./SectionTitle";
 import { RxOpenInNewWindow } from "react-icons/rx";
+
 
 const Projects = () => {
   return (
